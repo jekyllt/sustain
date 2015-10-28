@@ -1,0 +1,8 @@
+<entry>
+  <title type="text">{{ post.title | xml_escape }}</title>
+  <link rel="alternate" type="text/html" href="{{ site.url }}{{ post.url }}" />
+  <id>{{ site.url }}{{ post.id }}</id>
+  <published>{{ post.date | date: "%Y-%m-%dT%H:%M:%SZ" }}</published>
+  <updated>{{ post.date | date: "%Y-%m-%dT%H:%M:%SZ" }}</updated>
+  <content type="html"><![CDATA[ {{ post.content }} ]]></content>
+</entry>

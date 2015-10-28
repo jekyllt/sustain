@@ -1,0 +1,24 @@
+# top level stuff you probably don't need to touch
+highlighter: pygments
+markdown: rdiscount
+rdiscount:
+  extensions: [smart]
+permalink: /:title.html
+paginate: 5
+port: 3000
+safe: true
+
+
+# edit here to achieve your personal greatness
+url: http://username.github.io/
+baseurl: /sustain/
+title: Chris Turner
+author: Chris Turner
+description: Personal blog and resume
+avatar: profile.png
+email: yourname@email.com
+github: username
+twitter: chrisstturner
+linkedin: username
+disqus: username
+google_analytics: UA-69391421-1
