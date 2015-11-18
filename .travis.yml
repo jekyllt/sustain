@@ -6,7 +6,9 @@ rvm:
 
 # Assume bundler is being used, therefore
 # the `install` step will run `bundle install` by default.
-install: gem install jekyll rdiscount pygments #html-proofer
+before_install:
+- pip install pygments
+install: gem install jekyll rdiscount #html-proofer
 script: jekyll build #&& htmlproof ./_site --disable-external --only-4xx --check-html --check-favicon
 # branch whitelist, only for GitHub Pages
 branches:
