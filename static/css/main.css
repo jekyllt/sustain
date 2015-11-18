@@ -108,9 +108,8 @@ body {
 }
 .panel-default h4 {
   text-align: left;
-  margin-top: 30px;
-  line-height: 30px;
-  font-size: 18px;
+  line-height: 24px;
+  font-size: 22px;
 }
 .panel-default h5 {
   text-align: left;
@@ -157,6 +156,12 @@ body {
 }
 .disqus {
   padding-bottom: 15px;
+}
+
+.blogpost{
+  text-align: left;
+  line-height: 30px;
+  font-size: 18px;
 }
 
 /* Footer 
