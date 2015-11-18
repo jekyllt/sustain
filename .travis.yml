@@ -7,7 +7,7 @@ rvm:
 # Assume bundler is being used, therefore
 # the `install` step will run `bundle install` by default.
 install: gem install jekyll html-proofer
-script: jekyll build && htmlproof ./_site --disable-external --only-4xx --check-html --check-favicon
+script: jekyll build && htmlproof ./_site --disable-external --only-4xx #--check-html --check-favicon
 # branch whitelist, only for GitHub Pages
 branches:
   only:
