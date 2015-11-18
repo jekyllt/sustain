@@ -18,10 +18,10 @@ author: Chris Turner
 description: Personal blog and resume
 avatar: profile.png
 email: yourname@email.com
-github: username
-twitter: chrisstturner
+github: biomadeira/sustain # username
+twitter: username
 linkedin: username
-stackoverflow: users/2735833/proton1h1   #e.g: users/2735833/proton1h1 
+stackoverflow: username   #e.g: users/2735833/proton1h1
 #Comment out if you don't want disqus 
 disqus: username
 google_analytics: UA-69391421-1
