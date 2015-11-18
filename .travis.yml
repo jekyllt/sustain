@@ -3,7 +3,7 @@ language: ruby
 rvm:
 - 2.1
 - 2.2
-
+sudo: required
 # Assume bundler is being used, therefore
 # the `install` step will run `bundle install` by default.
 before_install:
