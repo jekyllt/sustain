@@ -2,3 +2,4 @@
 *.swp
 .idea/
 _site/
+.jekyll-metadata
