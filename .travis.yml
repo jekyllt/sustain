@@ -3,11 +3,10 @@ language: ruby
 rvm:
 - 2.1
 - 2.2
-sudo: required
 # Assume bundler is being used, therefore
 # the `install` step will run `bundle install` by default.
 before_install:
-- pip install pygments
+- pip install pygments --user
 install: gem install jekyll rdiscount #html-proofer
 script: jekyll build #&& htmlproof ./_site --disable-external --only-4xx --check-html --check-favicon
 # branch whitelist, only for GitHub Pages
