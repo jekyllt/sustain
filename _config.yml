@@ -27,3 +27,5 @@ disqus: username
 google_analytics: UA-69391421-1
 
 
+# needed for travis-ci build
+exclude: [vendor]

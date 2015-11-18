@@ -1,6 +1,8 @@
 
 # Sustain
 
+[![Build Status](https://secure.travis-ci.org/biomadeira/sustain.png?branch=gh-pages)](http://travis-ci.org/biomadeira/sustain)
+
 Personal blog built with [Bootstrap](http://getbootstrap.com/), powered by [Jekyll](http://jekyllrb.com/) and freely
 hosted in [Github pages](https://pages.github.com/).
 

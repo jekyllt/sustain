@@ -1,5 +1,13 @@
+# OS X
 .DS_Store
-*.swp
-.idea/
-_site/
+
+# Jekyll build
+/_site/
 .jekyll-metadata
+Gemfile.lock
+
+# webstorm
+.idea/
+
+# others
+*.swp
