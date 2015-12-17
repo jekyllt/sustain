@@ -1,5 +1,5 @@
 
-# Personal Blog by Joseph Godwin
+# Personal Blog by Joseph Godwin Kimani
 
 [![Build Status](https://secure.travis-ci.org/biomadeira/sustain.png?branch=gh-pages)](http://travis-ci.org/biomadeira/sustain)
 [![Ruby](https://img.shields.io/badge/ruby-2.1,_2.2-blue.svg?style=flat)](http://travis-ci.org/biomadeira/sustain)
