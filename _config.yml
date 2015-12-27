@@ -15,15 +15,15 @@ url: http://username.github.io/
 baseurl: /sustain/
 title: Joseph Godwin Kimani
 author: Joseph Godwin Kimani
-description: Personal blog and resume
+description: Personal blog and Resume
 avatar: profile.png
-email: yourname@email.com
+email: josephgodwinke@gmail.com
 github: gochojr # username
 twitter: josephgodwinke
-linkedin: username
-stackoverflow: username   #e.g: users/2735833/proton1h1
+linkedin: godwingocho
+stackoverflow: users/5194112/joseph-godwinke   #e.g: users/2735833/proton1h1
 #Comment out if you don't want disqus 
-disqus: username
+disqus: josephgodwinke
 google_analytics: UA-69391421-1
 
 
