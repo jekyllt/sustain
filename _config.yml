@@ -11,10 +11,10 @@ safe: true
 
 
 # edit here to achieve your personal greatness
-url: http://username.github.io/
-baseurl: /sustain/
-title: Chris Turner
-author: Chris Turner
+url: http://www.peterskaronis.com
+baseurl: 
+title: Peter Skaronis
+author: Peter Skaronis
 description: Personal blog and resume
 avatar: profile.png
 email: yourname@email.com
