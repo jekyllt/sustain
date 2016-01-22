@@ -32,3 +32,4 @@ exclude: [vendor]
 
 gems:
   - jekyll-sitemap
+  - jekyll-paginate
