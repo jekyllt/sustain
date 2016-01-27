@@ -3,7 +3,9 @@ published: false
 layout: post
 tags: 
   - blog
+  - Post
 ---
+
 
 ## A New Post
 
