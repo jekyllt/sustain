@@ -1,10 +1,12 @@
 ---
 layout: post
-title:  Clean Slate
-tags:
-- Blog
-- Post
+title: Clean Slate
+tags: 
+  - Blog
+  - Post
+published: true
 ---
+
 
 
 Learning how to use Github pages is fun and easy!
