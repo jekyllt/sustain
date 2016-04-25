@@ -13,6 +13,8 @@ tags:
 
 These days it has become easier than ever to expess your thoughts for others to see. Whether that's a good thing or not, I can't really tell but I have made my own observations.
 
+In the times we live where newer generations are brought up with social media as the status quo for social acceptance in the physical world, it something that requires closer examination. 
+
 I've made a list of pros and cons.
 
 ### Pros
