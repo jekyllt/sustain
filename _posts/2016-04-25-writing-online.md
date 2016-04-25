@@ -18,9 +18,9 @@ I've made a list of pros and cons.
 
 ### Pros
 
-1.Practise writing
-2.Accountability
-3.Feedback
+1. Practise writing
+2. Accountability
+3. Feedback
 
 
 Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
