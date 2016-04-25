@@ -1,8 +1,6 @@
 # top level stuff you probably don't need to touch
-highlighter: pygments
+highlighter: rouge
 markdown: kramdown
-rdiscount:
-  extensions: [smart]
 permalink: /:title.html
 paginate: 5
 gems: [jekyll-paginate]
