@@ -12,7 +12,7 @@ safe: true
 
 # edit here to achieve your personal greatness
 url: https://www.peterskaronis.com
-baseurl: ""
+baseurl: "https://www.peterskaronis.com"
 title: Peter Skaronis
 author: Peter Skaronis
 description: Personal blog and resume
