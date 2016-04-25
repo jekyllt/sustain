@@ -11,7 +11,6 @@ tags:
 ![Path]({{site.baseurl}}/assets/images/path.jpeg)
 
 
-
 These days it has become easier than ever to expess your thoughts for others to see. Whether that's a good thing or not, I can't really tell but I have made my own observations.
 
 I've made a list of pros and cons.
