@@ -8,7 +8,7 @@ tags:
 ## Writing Online
 
 
-![Path]({{site.baseurl}}/assets/images/path.jpeg)
+![Path]({{site.baseurl}}/assets/images/path.jpg)
 
 
 These days it has become easier than ever to expess your thoughts for others to see. Whether that's a good thing or not, I can't really tell but I have made my own observations.
