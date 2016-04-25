@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 layout: post
 tags: 
   - Blog
@@ -20,6 +20,14 @@ I've made a list of pros and cons.
 1. Practise writing
 2. Accountability
 3. Feedback
+4. Community
+
+### Cons
+
+1. Noise
+2. Loss of quality
+3. 
 
 
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
+
+
