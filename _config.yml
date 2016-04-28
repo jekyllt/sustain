@@ -1,8 +1,6 @@
 # top level stuff you probably don't need to touch
 highlighter: pygments
-markdown: rdiscount
-rdiscount:
-  extensions: [smart]
+markdown: kramdown
 permalink: /:title.html
 paginate: 5
 gems: [jekyll-paginate]
@@ -11,21 +9,25 @@ safe: true
 
 
 # edit here to achieve your personal greatness
-url: http://username.github.io/
-baseurl: /sustain/
-title: Chris Turner
-author: Chris Turner
+url: https://www.peterskaronis.com
+baseurl: "https://www.peterskaronis.com/"
+title: Peter Skaronis
+author: Peter Skaronis
 description: Personal blog and resume
 avatar: profile.png
-email: yourname@email.com
-github: biomadeira/sustain # username
-twitter: username
-linkedin: username
+email: pskaronis@protonmail.com
+github: techimpossible.github.com # username
+twitter: Peter_Skaronis
+linkedin: peterskaronis
 stackoverflow: username   #e.g: users/2735833/proton1h1
 #Comment out if you don't want disqus 
-disqus: username
-google_analytics: UA-69391421-1
+disqus: peterskaronis
+google_analytics: UA-45619220-1
 
 
 # needed for travis-ci build
 exclude: [vendor]
+
+gems:
+  - jekyll-sitemap
+  - jekyll-paginate
