@@ -1,6 +1,6 @@
 # top level stuff you probably don't need to touch
 highlighter: pygments
-markdown: rdiscount
+markdown: kramdown
 rdiscount:
   extensions: [smart]
 permalink: /:title.html
@@ -11,20 +11,20 @@ safe: true
 
 
 # edit here to achieve your personal greatness
-url: http://username.github.io/
+url: http://Galapagos.github.io/
 baseurl: /sustain/
-title: Chris Turner
-author: Chris Turner
+title: Dan Esrey
+author: Dan Esrey
 description: Personal blog and resume
 avatar: profile.png
-email: yourname@email.com
+email: dan.esrey@icloud.com
 github: biomadeira/sustain # username
-twitter: username
-linkedin: username
-stackoverflow: username   #e.g: users/2735833/proton1h1
+twitter: danesrey
+linkedin: danesrey
+stackoverflow:   #e.g: users/2735833/proton1h1
 #Comment out if you don't want disqus 
-disqus: username
-google_analytics: UA-69391421-1
+// disqus: username
+google_analytics: 
 
 
 # needed for travis-ci build
