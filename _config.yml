@@ -24,7 +24,7 @@ linkedin: ethandodge
 rss: atom.xml
 #Comment out if you don't want disqus 
 disqus: egd_io 
-#google_analytics: UA-67800268-2 
+google_analytics: UA-67800268-2 
 
 
 # needed for travis-ci build
