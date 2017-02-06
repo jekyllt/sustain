@@ -1,13 +1,14 @@
 ---
-layout: layout
-title: Blog
+layout: layout 
+title: Opinion Articles 
+category: opinion
 ---
-
 <div class="container">
-<h3>Archive</h3>
+ <h3>{{ page.title }} <a href="atom.xml"<i class="fa fa-rss"></i></a></h3>
   <div class="panel panel-default">
     <div class="panel-body">
 		{% for post in site.posts %}
+		  {% if post.categories contains page.category %}
 			<div class="row">
 				 <div class="col-sm-4 col-md-4 col-lg-4">
 					 <h5 style="text-align: right">
@@ -16,10 +17,12 @@ title: Blog
 				 </div>
 				 <div class="col-sm-8 col-md-8 col-lg-8">
 					 <h5 style="text-align: left">
-					 	<strong><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></strong>
+					 	<strong><a href="{{ post.url }}">{{ post.title }}</a></strong>
 					 </h5>
+					{{ post.excerpt | strip_html | truncatewords: 100 }}
 				 </div>
 			</div>
+		{% endif%}
 	    {% endfor %}
 	</div>
   </div>

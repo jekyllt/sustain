@@ -3,6 +3,8 @@ layout: layout
 ---
 
 <div class="container">
+	<div class="panel panel-default">
+		<div class="panel-body">
 	<div class="blog-post">
 		<h3>
 		  <strong><a href="{{ page.url }}">{{ page.title }}</a></strong>
@@ -17,8 +19,6 @@ layout: layout
 			{% endfor %}
 		</h4>
 	</div>
-	<div class="panel panel-default">
-		<div class="panel-body">
 			<div class="blogpost">
 			  {{ content }}
 			   <hr>
@@ -33,7 +33,7 @@ layout: layout
 							 </div>
 							 <div class="col-sm-8 col-md-8 col-lg-8">
 								 <h6 style="text-align: left">
-								 	<strong><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></strong>
+								 	<strong><a href="{{ post.url }}">{{ post.title }}</a></strong>
 								 </h6>
 							 </div>
 						</div>
