@@ -14,4 +14,4 @@ _The separation of the two blogs is in effort to not annoy the readership of the
 Ethan is always working on some sort of project and exploring new technologies. Here you can find articles on topics such as cyber security, privacy online, digital forensics, incident response, open source intelligence, etc.
 
 ### Opinion [<i class="fa fa-rss"></i>](/opinion/atom.xml) 
-Originally this site was just one blog, Ethan's tech blog, but with recent events Ethan feels an obligation to express his opinions, ideas, and concerns more freely with everyone. This blog exists to help Ethan share these thoughts and to serve as a medium to cultivate his passions for good writing and great journalism.
+Originally this site was just one blog, Ethan's tech blog, but with recent events Ethan [feels an obligation](/opinion/2017/02/06/the-start-of-my-opinions/) to express his opinions, ideas, and concerns more freely with everyone. This blog exists to help Ethan share these thoughts and to serve as a medium to cultivate his passions for good writing and great journalism.
