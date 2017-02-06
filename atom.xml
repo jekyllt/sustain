@@ -6,7 +6,7 @@ layout: null
   <channel>
     <title>{{ site.title | xml_escape }}/{{ page.category }}</title>
     <atom:link href="{{ "/atom.xml" | prepend: page.category | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
-    <link>{{ site.url }}</link>
+    <link>{{ site.url }}{{ site.baseurl }}</link>
     <description>{{ site.description | xml_escape }}</description>
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     {% for post in site.posts limit:15 %}
