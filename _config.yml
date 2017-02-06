@@ -23,7 +23,7 @@ linkedin: ethandodge
 #stackoverflow: username   #e.g: users/2735833/proton1h1
 rss: atom.xml
 #Comment out if you don't want disqus 
-disqus: egd_io 
+disqus: egd-io 
 google_analytics: UA-67800268-2 
 
 
