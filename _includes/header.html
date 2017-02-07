@@ -11,8 +11,6 @@
     </div>
     <div id="navbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="{{ site.baseurl }}tech">TECH</a></li>
-        <li><a href="{{ site.baseurl }}opinion">OPINION</a></li>
     	{% assign pages_list = site.pages %}
     	{% for node in pages_list %}
       	  {% if node.title != null %}
@@ -21,6 +19,8 @@
             {% endif %}
           {% endif %}
         {% endfor %}
+        <li><a href="{{ site.baseurl }}opinion">OPINION</a></li>
+        <li><a href="{{ site.baseurl }}tech">TECH</a></li>
       </ul>
     </div>
   </div>

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Start Of My Opinions 
-category: opinion
+category: opinion 
 ---
 A couple of years back, I deleted my Facebook account. I first got it in 2006 before many of my friends and family ever did. I loved Facebook. But as time went on it slowly became more and more of a waste of time. If my feed did not show what someone was eating or a click bait title, it was an opinionated and scathing flame war of comments. As Facebook culture started to grow into what it is now, I would participate in all these activities and many times I was the immature, generalizing, and heated friend stuck in his preconceived notions that you always rolled your eyes at. It became obvious to me that these were not constructive conversations, neither for me or with whom I was engaging. I decided to withdraw myself from all political discussion on Facebook, despite my strong opinions. It was shortly after that I decided to delete my account, mainly out of concerns for my privacy and that of my family.
 
