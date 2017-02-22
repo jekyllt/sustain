@@ -1,15 +1,17 @@
 ---
 layout: null
+category: tech
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>{{ site.title | xml_escape }}/{{ page.category }}</title>
     <atom:link href="{{ "/atom.xml" | prepend: page.category | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
-    <link>{{ site.url }}{{ site.baseurl }}</link>
+    <link>{{ site.url }}{{ site.baseurl }}{{ page.category }}</link>
     <description>{{ site.description | xml_escape }}</description>
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     {% for post in site.posts limit:15 %}
+    {% if post.category ==  page.category %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
         <link>{{ post.url | prepend: site.url }}</link>
@@ -17,6 +19,7 @@ layout: null
         <description>{{ post.content | xml_escape }}</description>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
       </item>
+    {% endif %}
     {% endfor %}
     <author>
       <name> {{ site.author }} </name>

@@ -71,6 +71,9 @@ body {
 .navbar-default .navbar-link:hover {
   color: #6b6b6b;
 }
+.navbar-uppercase {
+text-transform: uppercase;
+}
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
     color: #6b6b6b;
@@ -144,9 +147,11 @@ body {
 }
 .blog-post{
   padding-top: 15px;
+  text-align: left;
 }
 .blog-title{
   padding-top: 2px;
+  text-align: left;
 }
 .related-posts h4 {
   text-align: center;

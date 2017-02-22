@@ -1,13 +1,26 @@
 <nav class="navbar navbar-default">
   <div class="container">
     <div class="navbar-header">
-      <a class="navbar-brand" href="{{ site.baseurl }}"><i class="fa fa-home"></i></a>
+      {% if page.category == "tech" %}
+        <a class="navbar-brand" href="{{ site.baseurl }}"><i class="fa fa-home"></i></a> <p class="navbar-brand">egd.io/tech</p>
+      {% elsif page.category == "opinion" %}
+        <a class="navbar-brand" href="{{ site.baseurl }}"><i class="fa fa-home"></i></a><p class="navbar-brand">egd.io/opinion</p>
+      {% else %}
+        <a class="navbar-brand" href="{{ site.baseurl }}"><i class="fa fa-home"></i></a><p class="navbar-brand">egd.io</p>
+      {% endif %}
     </div>
     <div id="navbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="{{ site.baseurl }}blog.html">BLOG</a></li>
-        <li><a href="{{ site.baseurl }}projects.html">PROJECTS</a></li>
-        <li><a href="http://biomadeira.github.io/vitae">RESUME</a></li>
+    	{% assign pages_list = site.pages %}
+    	{% for node in pages_list %}
+      	  {% if node.title != null %}
+            {% if node.layout == "page" %}
+              <li class="navbar-uppercase"><a href="{{ node.url }}">{{ node.title }}</a></li>
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+        <li><a href="{{ site.baseurl }}opinion">OPINION</a></li>
+        <li><a href="{{ site.baseurl }}tech">TECH</a></li>
       </ul>
     </div>
   </div>
