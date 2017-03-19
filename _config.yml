@@ -11,20 +11,20 @@ safe: true
 
 
 # edit here to achieve your personal greatness
-url: http://username.github.io/
-baseurl: /sustain/
-title: Chris Turner
-author: Chris Turner
+url: http://abhijayendra.github.io/
+baseurl: /
+title: Abhijayendra Singh
+author: Abhijayendra Singh
 description: Personal blog and resume
 avatar: profile.png
-email: yourname@email.com
-github: biomadeira/sustain # username
-twitter: username
-linkedin: username
+email: abhijayendra@email.com
+github: abhijayendra # username
+twitter: abhijayendra
+linkedin: abhijayendra
 stackoverflow: username   #e.g: users/2735833/proton1h1
 #Comment out if you don't want disqus 
-disqus: username
-google_analytics: UA-69391421-1
+disqus: 
+google_analytics: UA-10595211-3
 
 
 # needed for travis-ci build
