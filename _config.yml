@@ -17,13 +17,13 @@ title: Abhijayendra Singh
 author: Abhijayendra Singh
 description: Personal blog and resume
 avatar: profile.png
-email: abhijayendra@email.com
+email: abhijayendra@gmail.com
 github: abhijayendra # username
 twitter: abhijayendra
 linkedin: abhijayendra
-stackoverflow: username   #e.g: users/2735833/proton1h1
+#stackoverflow: username   #e.g: users/2735833/proton1h1
 #Comment out if you don't want disqus 
-disqus: 
+#disqus: 
 google_analytics: UA-10595211-3
 
 
