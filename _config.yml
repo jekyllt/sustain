@@ -11,19 +11,19 @@ safe: true
 
 
 # edit here to achieve your personal greatness
-url: http://username.github.io/
+url: http://lrwyatt.github.io/
 baseurl: /sustain/
-title: Chris Turner
-author: Chris Turner
+title: Letisha R. Wyatt
+author: Letisha R. Wyatt
 description: Personal blog and resume
 avatar: profile.png
-email: yourname@email.com
-github: biomadeira/sustain # username
-twitter: username
+email: lrwyatt@gmail.com
+github: lrwyatt/sustain # username
+twitter: @dr_lrwyatt
 linkedin: username
 stackoverflow: username   #e.g: users/2735833/proton1h1
 #Comment out if you don't want disqus 
-disqus: username
+#disqus: username
 google_analytics: UA-69391421-1
 
 
