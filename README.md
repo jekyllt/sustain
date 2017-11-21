@@ -1,9 +1,9 @@
 
 # Sustain
 
-[![Build Status](https://secure.travis-ci.org/biomadeira/sustain.png?branch=gh-pages)](http://travis-ci.org/biomadeira/sustain)
-[![Ruby](https://img.shields.io/badge/ruby-2.4.2-blue.svg?style=flat)](http://travis-ci.org/biomadeira/sustain)
-[![Jekyll](https://img.shields.io/badge/jekyll-3.6.2-blue.svg?style=flat)](http://travis-ci.org/biomadeira/sustain)
+[![Build Status](https://secure.travis-ci.org/myjekyll/sustain.png?branch=gh-pages)](http://travis-ci.org/myjekyll/sustain)
+[![Ruby](https://img.shields.io/badge/ruby-2.4.2-blue.svg?style=flat)](http://travis-ci.org/myjekyll/sustain)
+[![Jekyll](https://img.shields.io/badge/jekyll-3.6.2-blue.svg?style=flat)](http://travis-ci.org/myjekyll/sustain)
 
 Personal blog built with [Bootstrap](http://getbootstrap.com/), powered by [Jekyll](http://jekyllrb.com/) and freely
 hosted in [Github pages](https://pages.github.com/).
@@ -11,22 +11,22 @@ hosted in [Github pages](https://pages.github.com/).
 
 ## View the live demo
 
-[Sustain Live Demo](https://biomadeira.github.io/sustain)
+[Sustain Live Demo](https://myjekyll.github.io/sustain)
 
 
 ## Screenshots
 
 **Home page**
-![home page](https://raw.githubusercontent.com/biomadeira/sustain/gh-pages/assets/images/screen1.png)
+![home page](https://raw.githubusercontent.com/myjekyll/sustain/gh-pages/assets/images/screen1.png)
 
 **Blog page**
-![blog page](https://raw.githubusercontent.com/biomadeira/sustain/gh-pages/assets/images/screen2.png)
+![blog page](https://raw.githubusercontent.com/myjekyll/sustain/gh-pages/assets/images/screen2.png)
 
 **Post page**
-![post page](https://raw.githubusercontent.com/biomadeira/sustain/gh-pages/assets/images/screen3.png)
+![post page](https://raw.githubusercontent.com/myjekyll/sustain/gh-pages/assets/images/screen3.png)
 
 **Projects page**
-![project page](https://raw.githubusercontent.com/biomadeira/sustain/gh-pages/assets/images/screen4.png)
+![project page](https://raw.githubusercontent.com/myjekyll/sustain/gh-pages/assets/images/screen4.png)
 
 
 ## How to use it
@@ -37,7 +37,7 @@ Edit the site attributes in *_config.yml* and edit the various entries in *_incl
 
 ## Issues and contributing
 
-I have tested this install with Ruby v2.4.2 (Mac OS RVM) and Jekyll v3.6.2. If you run into any problems please log them on the [issue tracker](https://github.com/biomadeira/sustain/issues).
+I have tested this install with Ruby v2.4.2 (Mac OS RVM) and Jekyll v3.6.2. If you run into any problems please log them on the [issue tracker](https://github.com/myjekyll/sustain/issues).
 
 Feel free pull-request your patches and fixes.
 
