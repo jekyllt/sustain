@@ -5,7 +5,7 @@ rdiscount:
   extensions: [smart]
 permalink: /:title.html
 paginate: 5
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
 port: 3000
 safe: true
 
@@ -22,7 +22,7 @@ github: biomadeira/sustain # username
 twitter: username
 linkedin: username
 stackoverflow: username   #e.g: users/2735833/proton1h1
-#Comment out if you don't want disqus 
+#Comment out if you don't want disqus
 disqus: username
 google_analytics: UA-69391421-1
 
