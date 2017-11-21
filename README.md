@@ -1,7 +1,7 @@
 
 # Sustain
 
-[![Build Status](https://secure.travis-ci.org/myjekyll/sustain.png?branch=gh-pages)](http://travis-ci.org/myjekyll/sustain)
+[![Build Status](https://secure.travis-ci.org/myJekyll/sustain.png?branch=gh-pages)](http://travis-ci.org/myjekyll/sustain)
 [![Ruby](https://img.shields.io/badge/ruby-2.4.2-blue.svg?style=flat)](http://travis-ci.org/myjekyll/sustain)
 [![Jekyll](https://img.shields.io/badge/jekyll-3.6.2-blue.svg?style=flat)](http://travis-ci.org/myjekyll/sustain)
 
