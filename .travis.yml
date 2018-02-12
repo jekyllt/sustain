@@ -9,7 +9,7 @@ install:
   # Install Jekyll and dependencies
   - bundle install
 
-script: jekyll build && htmlproofer ./_site
+script: jekyll build
 
 # branch whitelist, only for GitHub Pages
 branches:
