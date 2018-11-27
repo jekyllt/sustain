@@ -44,6 +44,7 @@ Feel free pull-request your patches and fixes.
 #### Contributors
 
 [John Pitchko](https://github.com/johnpitchko), November 2018
+
 [Sumit Murari](https://github.com/murarisumit), November 2015
 
 
