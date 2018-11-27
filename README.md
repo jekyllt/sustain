@@ -5,7 +5,7 @@
 [![Ruby](https://img.shields.io/badge/ruby-2.4.2-blue.svg?style=flat)](http://travis-ci.org/jekyller/sustain)
 [![Jekyll](https://img.shields.io/badge/jekyll-3.6.2-blue.svg?style=flat)](http://travis-ci.org/jekyller/sustain)
 
-Personal blog built with [Bootstrap](http://getbootstrap.com/), powered by [Jekyll](http://jekyllrb.com/) and freely
+Personal blog built with [Bootstrap 4](http://getbootstrap.com/), powered by [Jekyll](http://jekyllrb.com/) and freely
 hosted in [Github pages](https://pages.github.com/).
 
 
@@ -43,6 +43,7 @@ Feel free pull-request your patches and fixes.
 
 #### Contributors
 
+[John Pitchko](https://github.com/johnpitchko), November 2018
 [Sumit Murari](https://github.com/murarisumit), November 2015
 
 
