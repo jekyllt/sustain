@@ -1,9 +1,23 @@
 @import "syntax";
 
+
+
+$theme-color: #5BB66F;
+$text-color: #3F4650;
+$text-color-secondary: #545E6C;
+$text-grey: #97AAC3;
+$divider: #e8e8e8;
+$lighter-grey: #ccc;
+$darker-grey: #666;
+$smoky-white: #f5f5f5;
+$heart: #fb866a;
+
+
+
 html,
 body {
   height: 100%;
-  background-color: #fff;
+  background-color: $smoky-white;
   font-family: 'Source Sans Pro', sans-serif;
   /* The html and body elements cannot have any padding or margin. */
   border-top: 3px solid #27A822;
@@ -26,8 +40,8 @@ body {
   margin-bottom: 10px;
 }
 .navbar-default {
-  background-color: #ffffff;
-  border-color: #ffffff;
+  background-color: $smoky-white;
+  border-color: $smoky-white;
 
   .navbar-brand {
     color: #6b6b6b
