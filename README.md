@@ -39,6 +39,10 @@ This version is a fork of [Sustain](https://github.com/jekyller/sustain) but fea
 Simply clone/fork this repository, and then run `jekyll serve` inside the directory.
 Edit the site attributes in *_config.yml* and edit the various entries in *_includes/* and *_posts/*.
 
+### Navbar
+
+Items in the navbar are defined in the *_data/navbar.yml* file. See this file for more details of the basic syntax. Users of the theme can dynamically add items to the navbar without having to edit any HTML. **Note** all HREFs/URLs require a leading `/`.
+
 
 ## Issues and contributing
 
@@ -48,7 +52,7 @@ Feel free pull-request your patches and fixes.
 
 #### Contributors
 
-[John Pitchko](https://github.com/johnpitchko), November 2018
+[John Pitchko](https://github.com/johnpitchko), December 2018
 
 [Sumit Murari](https://github.com/murarisumit), November 2015
 
