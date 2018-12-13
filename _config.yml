@@ -29,3 +29,8 @@ google_analytics: UA-69391421-1
 
 # needed for travis-ci build
 exclude: [vendor]
+
+# trying to add the new icons...
+social:
+- {icon: 'researchgate', link: 'https://www.researchgate.net/profile/profileName'}
+- {icon: 'google-scholar', link: 'https://scholar.google.com/citations?user=userID'}
