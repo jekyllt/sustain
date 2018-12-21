@@ -2,4 +2,11 @@
 layout: default
 ---
 
-{{ content }}
+<div class="container">
+  {% if page.featured-img %}
+    <img class="img-fluid" src="{{ page.featured-img }}">
+  {% endif %}
+
+  <h3>{{ page.title }}</h3>
+  {{ content }}
+</div>
