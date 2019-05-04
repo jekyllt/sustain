@@ -1,14 +1,11 @@
-{% assign navbar = site.data.navbar %}
-
-
 <nav class="navbar navbar-expand-lg navbar-default">
   <div class="container">
     <div class="navbar-header">
       <a class="navbar-brand" href="{{ site.baseurl }}/"><i class="fa fa-home"></i></a>
     </div>
     <ul class="navbar-nav ml-auto">
-      {% for nav-item in navbar %}
-        <li class="nav-item"><a href="{{ site.baseurl }}{{ nav-item.href }}" class="nav-link text-uppercase">{{ nav-item.name }}</a></li>
+      {% for nav-item in site.menus.navbar %}
+        <li class="nav-item"><a href="{{ site.baseurl }}{{ nav-item.url }}" class="nav-link text-uppercase">{{ nav-item.title }}</a></li>
       {% endfor %}
     </ul>
   </div>

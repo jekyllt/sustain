@@ -1,0 +1,14 @@
+---
+navbar:
+  - url: /blog.html
+    title: Blog
+    identifier: blog
+
+  - url: /projects.html
+    title: Projects
+    identifier: projects
+
+  - url: /resume.html
+    title: Resume
+    identifier: resume
+---

@@ -14,9 +14,11 @@ This version is a fork of [Sustain](https://github.com/jekyller/sustain) but fea
 3. Implements a best practice directory hierarchy and filename convention outlined by [Ben Balter](http://ben.balter.com/jekyll-style-guide/)
 
 
+
 ## View the live demo
 
 [Sustain4 Live Demo](https://johnpitchko.github.io/sustain4)
+
 
 
 ## Screenshots
@@ -34,21 +36,23 @@ This version is a fork of [Sustain](https://github.com/jekyller/sustain) but fea
 ![project page](https://raw.githubusercontent.com/johnpitchko/sustain4/gh-pages/assets/images/screen4.png)
 
 
+
 ## How to use it
 
 Simply clone/fork this repository, and then run `jekyll serve` inside the directory.
 Edit the site attributes in *_config.yml* and edit the various entries in *_includes/* and *_posts/*.
 
-### Navbar
+### Navbar/menu
 
-Items in the navbar are defined in the *_data/navbar.yml* file. See this file for more details of the basic syntax. Users of the theme can dynamically add items to the navbar without having to edit any HTML. **Note** all HREFs/URLs require a leading `/`.
-
+This theme uses the [jekyll-menus](https://github.com/forestryio/jekyll-menus/) plugin to generate the navbar. Items and sub-items can be added to the navbar either through the `_data/menus.yml` file or in the Front Matter on specific pages. Refer to the documentation for the plugin for more details.
 
 ## Issues and contributing
 
 I have tested this install with Ruby v2.5.1 (Mac OS RVM) and Jekyll v3.8.5ru. If you run into any problems please log them on the [issue tracker](https://github.com/johnpitchko/sustain4/issues).
 
 Feel free pull-request your patches and fixes.
+
+
 
 #### Contributors
 
@@ -59,9 +63,11 @@ Feel free pull-request your patches and fixes.
 [Fábio Madeira](https://github.com/biomadeira) (original author), October 2015
 
 
+
 ## Thanks
 
 Profile picture from [pexels](https://www.pexels.com/photo/portrait-black-african-ethnicity-person-9494/).
+
 
 
 ## Copyright & License
