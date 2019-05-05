@@ -5,14 +5,13 @@ rdiscount:
   extensions: [smart]
 permalink: /:title.html
 paginate: 5
-plugins: [jekyll-paginate]
 port: 3000
 safe: true
 
 
 # edit here to achieve your personal greatness
-url: http://username.github.io/
-baseurl: /sustain4-theme
+# url: http://username.github.io/
+# baseurl: /sustain4-theme
 title: Chris Turner
 author: Chris Turner
 description: Personal blog and resume
@@ -32,3 +31,8 @@ exclude: [vendor]
 
 sass:
     sass_dir: _sass
+
+# Defining plugins here is necessary because certain hosts (e.g. Github Pages, Netlify) do not build sites using Bundler.
+plugins:
+  - jekyll-paginate
+  - jekyll-menus
