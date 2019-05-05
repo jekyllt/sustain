@@ -52,6 +52,20 @@ I have tested this install with Ruby v2.5.1 (Mac OS RVM) and Jekyll v3.8.5ru. If
 
 Feel free pull-request your patches and fixes.
 
+## Build and publish the gem
+
+This is a note so I remember the steps to build and publish (and sometimes yank) a gem.
+
+#### To build
+
+1. Update the .gemspec and increment the version number.
+1. Run command `gem build sustain4-theme.gemspec`
+
+#### To publish
+
+1. `gem push sustain4-theme-*.gem`
+2. Verify on [Rubygems.org](https://rubygems.org/gems/sustain4-theme)
+
 
 
 #### Contributors

@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "sustain4-theme"
-  spec.version       = "1.7.0"
+  spec.version       = "1.7.1"
   spec.authors       = ["John Pitchko"]
   spec.email         = ["john.pitchko@icloud.com"]
 
@@ -13,6 +13,7 @@ Gem::Specification.new do |spec|
   spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r!^(assets|_layouts|_includes|_sass|LICENSE|README)!i) }
 
   spec.add_runtime_dependency "jekyll", "~> 3.8"
+  spec.add_runtime_dependency "jekyll-menus", "~> 0.6"
 
   spec.add_development_dependency "bundler", "~> 1.16"
   spec.add_development_dependency "rake", "~> 12.0"
