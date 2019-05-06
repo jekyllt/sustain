@@ -5,7 +5,20 @@
     </div>
     <ul class="navbar-nav ml-auto">
       {% for nav-item in site.menus.navbar %}
-        <li class="nav-item"><a href="{{ site.baseurl }}{{ nav-item.url }}" class="nav-link text-uppercase">{{ nav-item.title }}</a></li>
+        {% if nav-item.children %}
+          <li class="nav-item dropdown">
+            <a  class="nav-link dropdown-toggle text-uppercase" href="{{ nav-item.url }}" id="navbarDropdown" role="button"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ nav-item.title }}</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              {% for child in nav-item.children %}
+                <a class="dropdown-item" href="{{ child.url }}">{{ child.title }}</a>
+              {% endfor %}
+            </div>
+          </li>
+        {% else %}
+          <li class="nav-item">
+            <a href="{{ site.baseurl }}{{ nav-item.url }}" class="nav-link text-uppercase">{{ nav-item.title }}</a>
+          </li>
+        {% endif %}
       {% endfor %}
     </ul>
   </div>

@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "sustain4-theme"
-  spec.version       = "1.7.1"
+  spec.version       = "1.8.0"
   spec.authors       = ["John Pitchko"]
   spec.email         = ["john.pitchko@icloud.com"]
 
