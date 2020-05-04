@@ -12,13 +12,13 @@ safe: true
 
 # edit here to achieve your personal greatness
 url: http://bandit-blogs.github.io/
-baseurl: /sustain/
-title: Chris Turner
-author: Chris Turner
+baseurl: /
+title: Bandit Blogs
+author: Bandit Blogs
 description: Personal blog and resume
 avatar: profile.png
-email: yourname@email.com
-github: jekyller/sustain # username
+email: aruntr.blog@gmail.com
+github: bandit-blogs/bandit-blogs # username
 twitter: username
 linkedin: username
 stackoverflow: username   #e.g: users/2735833/proton1h1
