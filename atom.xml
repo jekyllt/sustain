@@ -1,7 +1,0 @@
----
-layout: atom
----
-
-{% for post in site.posts limit:10 %}
-  {% include feed-detail.xml %}
-{% endfor %}
