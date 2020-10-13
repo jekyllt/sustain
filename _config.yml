@@ -17,13 +17,13 @@ title: Radim Mušálek
 author: Radim Mušálek
 description: Personal blog and resume
 avatar: profile.png
-email: yourname@email.com
-github: RadimMusalek/CV # username
-twitter: username
-linkedin: username
-stackoverflow: username   #e.g: users/2735833/proton1h1
+email: radim.musalek (at) integrify.io
+github: RadimMusalek # username
+twitter: radim_musalek
+linkedin: in/radim-mušálek-1142b824/
+# stackoverflow: username   #e.g: users/2735833/proton1h1
 #Comment out if you don't want disqus
-disqus: username
+# disqus: username
 google_analytics: UA-69391421-1
 
 
