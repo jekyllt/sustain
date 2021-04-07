@@ -1,0 +1,18 @@
+# from http://jekyllrb.com/docs/continuous-integration/
+language: ruby
+rvm:
+- 2.4.2
+
+# Assume bundler is being used, therefore
+# the `install` step will run `bundle install` by default.
+#install: gem install jekyll rdiscount pygments html-proofer
+install: gem install jekyll #rdiscount pygments html-proofer
+script: jekyll build #&& htmlproof ./_site --disable-external --only-4xx --check-html --check-favicon
+# branch whitelist, only for GitHub Pages
+branches:
+  only:
+  - gh-pages     # test the gh-pages branch
+
+env:
+  global:
+  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer

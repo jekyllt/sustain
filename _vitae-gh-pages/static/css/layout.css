@@ -1,0 +1,144 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:700,400);
+
+body {
+    font-family: "Raleway", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 21px;
+    color: rgb(48, 48, 48);
+    border-top: 5px solid #27a822;
+    border-bottom: 5px solid #27A822;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+a {
+    text-decoration: none;
+    /*background-color: rgba(39, 168, 34, 0.06);*/
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover, a:focus {
+    color: #27A822;
+}
+
+p, address {
+    margin-bottom: 0;
+}
+
+.me {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    margin-bottom: 20px;
+}
+
+header > h1, section > h1 {
+    color: #27A822;
+}
+
+header > h1 {
+    line-height: 100%;
+    font-size: 250%;
+    margin-bottom: 20px;
+}
+
+.container > header p, .container > header address {
+    margin-bottom: 20px;
+}
+
+.container > header p:last-child {
+    margin-bottom: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section > h1 {
+    font-size: 140%;
+    line-height: 120%;
+    text-transform: uppercase;
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+article > header > h1 {
+    font-size: 112%;
+    font-weight: bold;
+    line-height: 150%;
+    margin-bottom: 0;
+    color: inherit;
+}
+
+article > header > span + span {
+    margin-left: 2px;
+}
+
+article > header > span + span::before {
+    content: '@';
+    margin-right: 4px;
+}
+
+article > header > span {
+    color: #808080;
+    font-size: 100%;
+}
+
+article > header > span a {
+    color: inherit;
+}
+
+article > header address {
+    display: inline;
+}
+
+article > header address + time {
+    margin-left: 6px;
+}
+
+article > header address + time::before {
+    content: '—';
+    margin-right: 6px;
+}
+
+em {
+    font-style: normal;
+    font-weight: bold;
+    color: rgb(100, 100, 100);
+    /*margin-right: 6px;*/
+}
+
+@media print {
+    @page {
+        margin: 15mm;
+    }
+
+    body {
+        font-size: 14pt;
+        line-height: 21pt;
+    }
+
+    .container > header {
+        font-size: 80%;
+        line-height: 160%;
+    }
+
+    article > header > span {
+        font-size: 80%;
+        line-height: 80%;
+    }
+}
+
+footer p {
+    margin-bottom: 10px;
+    font-size: 10pt;
+}
