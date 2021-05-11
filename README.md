@@ -1,9 +1,8 @@
-
 # Sustain
 
-[![Build Status](https://secure.travis-ci.org/jekyller/sustain.png?branch=gh-pages)](http://travis-ci.org/jekyller/sustain)
-[![Ruby](https://img.shields.io/badge/ruby-2.4.2-blue.svg?style=flat)](http://travis-ci.org/jekyller/sustain)
-[![Jekyll](https://img.shields.io/badge/jekyll-3.6.2-blue.svg?style=flat)](http://travis-ci.org/jekyller/sustain)
+![Build Status](https://github.com/jekyller/sustain/actions/workflows/jekyll_build.yml/badge.svg)
+[![Ruby](https://img.shields.io/badge/ruby-2.6.3-blue.svg?style=flat)](http://travis-ci.org/jekyller/sustain)
+[![Jekyll](https://img.shields.io/badge/jekyll-3.9.0-blue.svg?style=flat)](http://travis-ci.org/jekyller/sustain)
 
 Personal blog built with [Bootstrap](http://getbootstrap.com/), powered by [Jekyll](http://jekyllrb.com/) and freely
 hosted in [Github pages](https://pages.github.com/).
@@ -35,15 +34,13 @@ Simply clone/fork this repository, and then run `jekyll serve` inside the direct
 Edit the site attributes in *_config.yml* and edit the various entries in *_includes/* and *_posts/*.
 
 
+
+
 ## Issues and contributing
 
-I have tested this install with Ruby v2.4.2 (Mac OS RVM) and Jekyll v3.6.2. If you run into any problems please log them on the [issue tracker](https://github.com/jekyller/sustain/issues).
+This install builds well with Ruby v2.6.3 and Jekyll v3.9.0. If you run into any problems please log them on the [issue tracker](https://github.com/jekyller/sustain/issues).
 
 Feel free pull-request your patches and fixes.
-
-#### Contributors
-
-[Sumit Murari](https://github.com/murarisumit), November 2015
 
 
 ## Thanks
