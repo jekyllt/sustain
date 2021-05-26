@@ -1,0 +1,184 @@
+/* Main page with stikky-footer
+-------------------------------------------------- */
+html,
+body {
+  height: 100%;
+  background-color: #fff;
+  font-family: 'Source Sans Pro', sans-serif;
+  /* The html and body elements cannot have any padding or margin. */
+  border-top: 3px solid #27A822;
+}
+/* Wrapper for page content to push down footer */
+#wrap {
+  padding-bottom: 50px;	
+  min-height: 100%;
+  height: auto;
+  /* Negative indent footer by its height */
+  margin: 0 auto -65px;
+  /* Pad bottom by footer height */
+  /*padding: 0 0 60px;*/
+}
+
+/* Navbar
+-------------------------------------------------- */
+
+.navbar-static-top {
+  margin-bottom: 10px;
+}
+.navbar-default {
+  background-color: #ffffff;
+  border-color: #ffffff;
+}
+.navbar-default .navbar-brand {
+  color: #6b6b6b;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+  color: #6b6b6b;
+}
+.navbar-default .navbar-text {
+  color: #6b6b6b;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #6b6b6b;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #6b6b6b;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: #6b6b6b;
+  background-color: #ffffff;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+  color: #6b6b6b;
+  background-color: #ffffff;
+}
+.navbar-default .navbar-toggle {
+  border-color: #ffffff;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: #ffffff;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #6b6b6b;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #6b6b6b;
+}
+.navbar-default .navbar-link {
+  color: #6b6b6b;
+}
+.navbar-default .navbar-link:hover {
+  color: #6b6b6b;
+}
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #6b6b6b;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #6b6b6b;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #6b6b6b;
+    background-color: #ffffff;
+  }
+}
+
+/* Custom page CSS
+-------------------------------------------------- */
+
+.container {
+  width: auto;
+  max-width: 800px;
+  text-align: center;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+.container a {
+  color: #27A822;
+}
+.container a:hover {
+  color: #267723;
+}
+.img-responsive {
+ display: block;
+ height: auto;
+ max-width: 100%;
+}
+.panel-default h4 {
+  text-align: left;
+  line-height: 24px;
+  font-size: 22px;
+}
+.panel-default h5 {
+  text-align: left;
+  line-height: 30px;
+  font-size: 18px;
+}
+.panel-default h6 {
+  font-size: 15px;
+}
+.panel-default h4 a, h5 a {
+  color: #27A822;
+}
+.panel-default h4 a:hover, h5 a:hover {
+  color: #267723;
+}
+.panel{
+  border-style: none;
+}
+.panel-body {
+  padding-top: -10px;
+  text-align: left;
+}
+.social {
+  padding-top: 12px;
+  word-spacing: 25px;
+}
+.social h4 > a {
+  color: #000000;
+}
+.avatar {
+  padding-top: 5%;
+}
+.blog-post{
+  padding-top: 15px;
+}
+.blog-title{
+  padding-top: 2px;
+}
+.related-posts h4 {
+  text-align: center;
+}
+.page-not-found {
+  padding-top: 20%;
+}
+.disqus {
+  padding-bottom: 15px;
+}
+
+.blogpost{
+  text-align: left;
+  line-height: 30px;
+  font-size: 18px;
+}
+
+/* Footer 
+-------------------------------------------------- */
+
+.footer {
+  text-decoration: none !important;
+}
+.text-muted {
+	color: #6b6b6b;
+}
+div.footer{
+  border-bottom: 5px solid #27A822;;
+}
+/* Set the fixed height of the footer here */
+/*.footer {
+  height: 50px;
+  padding-bottom: 15px;
+  
+}*/

@@ -1,0 +1,755 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  
+    <title type="text" xml:lang="en">Chris Turner</title>
+    <link type="application/atom+xml" rel="self" href="http://username.github.io//atom.xml"/>
+  
+  <link href="http://username.github.io//"/>
+  <id>http://username.github.io//</id>
+  <updated>2021-05-26T23:02:53Z</updated>
+  <author>
+    <name>Chris Turner</name>
+    <email>yourname@email.com</email>
+  </author>
+  <rights type="text">Copyright © 2021 Chris Turner. All rights reserved.</rights>
+  
+  <entry>
+  <title type="text">A Full and Comprehensive Style Test (HTML)</title>
+  <link rel="alternate" type="text/html" href="http://username.github.io//post1.html" />
+  <id>http://username.github.io//post1</id>
+  <published>2013-06-05T00:00:00Z</published>
+  <updated>2013-06-05T00:00:00Z</updated>
+  <content type="html"><![CDATA[ <blockquote>
+  <p>This is Markdown Cheatsheet Demo for <strong>Sustain</strong>, this Jekyll theme. Please check the raw content of this file for the markdown usage.</p>
+</blockquote>
+
+<p>This is just an <em>ipsis verbis</em> copy of the first example running on the <a href="http://demo.ghost.io">Ghost Demo</a>. This shows how you can use html styling to achieve your hopes.</p>
+
+<p>Below is just about everything you’ll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.</p>
+
+<hr />
+
+<h1 id="heading1">Heading 1</h1>
+
+<h2 id="heading2">Heading 2</h2>
+
+<h3 id="heading3">Heading 3</h3>
+
+<h4 id="heading4">Heading 4</h4>
+
+<h5 id="heading5">Heading 5</h5>
+
+<h6 id="heading6">Heading 6</h6>
+
+<hr />
+
+<p>Lorem ipsum dolor sit amet, <a title="test link" href="#">test link</a> adipiscing elit. <strong>This is strong.</strong> Nullam dignissim convallis est. Quisque aliquam. <em>This is emphasized.</em> Donec faucibus. Nunc iaculis suscipit dui. 5<sup>3</sup> = 125. Water is H<sub>2</sub>O. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. <cite>The New York Times</cite> (That’s a citation). <span style="text-decoration:underline;">Underline.</span> Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.</p>
+
+<p><abbr title="Hyper Text Markup Language">HTML</abbr> and <abbr title="Cascading Style Sheets">CSS</abbr> are our tools. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.  Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus. To copy a file type <code>COPY <var>filename</var></code>. <del>Dinner’s at 5:00.</del> <ins>Let’s make that 7.</ins> This <span style="text-decoration:line-through;">text</span> has been struck.</p>
+
+<hr />
+
+<h2 id="media">Media</h2>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+
+<h3 id="bigimage">Big Image</h3>
+
+<p><img src="http://demo.ghost.io/content/images/2014/09/testimg1.jpeg" alt="Test Image" /></p>
+
+<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+
+<h3 id="smallimage">Small Image</h3>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+
+<p><img src="http://demo.ghost.io/content/images/2014/09/testimg2.jpg" alt="Small Test Image" /></p>
+
+<p>Labore et dolore.</p>
+
+<hr />
+
+<h2 id="listtypes">List Types</h2>
+
+<h3 id="definitionlist">Definition List</h3>
+
+<dl>  
+<dt>Definition List Title</dt>  
+<dd>This is a definition list division.</dd>  
+<dt>Definition</dt>  
+<dd>An exact statement or description of the nature, scope, or meaning of something: <em>our definition of what constitutes poetry.</em></dd>  
+</dl>
+
+<h3 id="orderedlist">Ordered List</h3>
+
+<ol>
+<li>List Item 1  </li>
+<li>List Item 2 <br />
+<ol><li>Nested list item A</li>
+<li>Nested list item B</li></ol></li>
+<li>List Item 3</li>
+</ol>
+
+<h3 id="unorderedlist">Unordered List</h3>
+
+<ul>
+<li>List Item 1</li>
+<li>List Item 2
+<ul><li>Nested list item A</li>
+<li>Nested list item B</li></ul></li>
+<li>List Item 3</li>
+</ul>
+
+<hr />
+
+<h2 id="table">Table</h2>
+
+<table>  
+<tbody>  
+<tr>  
+<th>Table Header 1</th>  
+<th>Table Header 2</th>  
+<th>Table Header 3</th>  
+</tr>  
+<tr>  
+<td>Division 1</td>  
+<td>Division 2</td>  
+<td>Division 3</td>  
+</tr>  
+<tr class="even">  
+<td>Division 1</td>  
+<td>Division 2</td>  
+<td>Division 3</td>  
+</tr>  
+<tr>  
+<td>Division 1</td>  
+<td>Division 2</td>  
+<td>Division 3</td>  
+</tr>  
+</tbody>  
+</table>
+
+<hr />
+
+<h2 id="preformattedtext">Preformatted Text</h2>
+
+<p>Typographically, preformatted text is not the same thing as code. Sometimes, a faithful execution of the text requires preformatted text that may not have anything to do with code. Most browsers use Courier and that’s a good default — with one slight adjustment, Courier 10 Pitch over regular Courier for Linux users.</p>
+
+<h3 id="code">Code</h3>
+
+<p>Code can be presented inline, like <code>&lt;?php bloginfo('stylesheet_url'); ?&gt;</code>, or within a <code>&lt;pre&gt;</code> block. Because we have more specific typographic needs for code, we’ll specify Consolas and Monaco ahead of the browser-defined monospace font.</p>
+
+<figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="nf">#container</span> <span class="p">{</span>
+    <span class="nl">float</span><span class="p">:</span> <span class="nb">left</span><span class="p">;</span>
+    <span class="nl">margin</span><span class="p">:</span> <span class="m">0</span> <span class="m">-240px</span> <span class="m">0</span> <span class="m">0</span><span class="p">;</span>
+    <span class="nl">width</span><span class="p">:</span> <span class="m">100%</span><span class="p">;</span>
+<span class="p">}</span></code></pre></figure>
+
+<hr />
+
+<h2 id="blockquotes">Blockquotes</h2>
+
+<p>Let’s keep it simple. Italics are good to help set it off from the body text. Be sure to style the citation.</p>
+
+<blockquote>
+  <p>Good afternoon, gentlemen. I am a HAL 9000 computer. I became operational at the H.A.L. plant in Urbana, Illinois on the 12th of January 1992. My instructor was Mr. Langley, and he taught me to sing a song. If you’d like to hear it I can sing it for you. <cite>— <a href="http://en.wikipedia.org/wiki/HAL_9000">HAL 9000</a></cite></p>
+</blockquote>
+
+<p>And here’s a bit of trailing text.</p>
+
+<hr />
+
+<h2 id="textlevelsemantics">Text-level semantics</h2>
+
+<p>The <a href="#">a element</a> example <br />
+The <abbr>abbr element</abbr> and <abbr title="Title text">abbr element with title</abbr> examples <br />
+The <b>b element</b> example <br />
+The <cite>cite element</cite> example <br />
+The <code>code element</code> example <br />
+The <del>del element</del> example <br />
+The <dfn>dfn element</dfn> and <dfn title="Title text">dfn element with title</dfn> examples <br />
+The <em>em element</em> example <br />
+The <i>i element</i> example <br />
+The <ins>ins element</ins> example <br />
+The <kbd>kbd element</kbd> example <br />
+The <mark>mark element</mark> example <br />
+The <q>q element <q>inside</q> a q element</q> example <br />
+The <s>s element</s> example <br />
+The <samp>samp element</samp> example <br />
+The <small>small element</small> example <br />
+The <span>span element</span> example <br />
+The <strong>strong element</strong> example <br />
+The <sub>sub element</sub> example <br />
+The <sup>sup element</sup> example <br />
+The <var>var element</var> example <br />
+The <u>u element</u> example</p>
+
+<hr />
+
+<h2 id="forms">Forms</h2>
+
+<form>  
+<fieldset>  
+<legend>Inputs as descendents of labels (form legend)</legend>  
+<label>  
+<b>Text input</b>  
+<input type="text" value="default value" />  
+</label>  
+<label>  
+<b>Email input</b>  
+<input type="email" />  
+</label>  
+<label>  
+<b>Search input</b>  
+<input type="search" />  
+</label>  
+<label>  
+<b>Tel input</b>  
+<input type="tel" />  
+</label>  
+<label>  
+<b>URL input</b>  
+<input type="url" placeholder="http://" />  
+</label>  
+<label>  
+<b>Password input</b>  
+<input type="password" value="password" />  
+</label>  
+<label>  
+<b>File input</b>  
+<input type="file" />  
+</label>  
+<label>  
+<b>Radio input</b>  
+<input type="radio" name="rad" />  
+</label>  
+<label>  
+<b>Checkbox input</b>  
+<input type="checkbox" />  
+</label>  
+<label>  
+<input type="radio" name="rad" /> Radio input  
+</label>  
+<label>  
+<input type="checkbox" /> Checkbox input  
+</label>  
+<label>  
+<b>Select field</b>  
+<select>  
+<option>Option 01</option>  
+<option>Option 02</option>  
+</select>  
+</label>  
+<label>  
+<b>Textarea</b>  
+<textarea cols="30" rows="5">Textarea text</textarea>  
+</label>  
+</fieldset> 
+
+<fieldset>  
+<legend>Clickable inputs and buttons</legend>  
+<input type="image" src="http://placekitten.com/90/24" alt="Image (input)" />  
+<input type="reset" value="Reset (input)" />  
+<input type="button" value="Button (input)" />  
+<input type="submit" value="Submit (input)" />  
+<button type="reset">Reset (button)</button>  
+<button type="button">Button (button)</button>  
+<button type="submit">Submit (button)</button>  
+</fieldset> 
+
+<fieldset id="boxsize">  
+<legend>box-sizing tests</legend>  
+<div><input type="text" value="text" /></div>  
+<div><input type="email" value="email" /></div>  
+<div><input type="search" value="search" /></div>  
+<div><input type="url" value="http://example.com" /></div>  
+<div><input type="password" value="password" /></div> 
+
+<div><input type="color" value="#000000" /></div>  
+<div><input type="number" value="5" /></div>  
+<div><input type="range" value="10" /></div>  
+<div><input type="date" value="1970-01-01" /></div>  
+<div><input type="month" value="1970-01" /></div>  
+<div><input type="week" value="1970-W01" /></div>  
+<div><input type="time" value="18:23" /></div>  
+<div><input type="datetime" value="1970-01-01T00:00:00Z" /></div>  
+<div><input type="datetime-local" value="1970-01-01T00:00" /></div> 
+
+<div><input type="radio" /></div>  
+<div><input type="checkbox" /></div> 
+
+<div><select><option>Option 01</option><option>Option 02</option></select></div>  
+<div><textarea cols="30" rows="5">Textarea text</textarea></div> 
+
+<div><input type="image" src="http://placekitten.com/90/24" alt="Image (input)" /></div>  
+<div><input type="reset" value="Reset (input)" /></div>  
+<div><input type="button" value="Button (input)" /></div>  
+<div><input type="submit" value="Submit (input)" /></div> 
+
+<div><button type="reset">Reset (button)</button></div>  
+<div><button type="button">Button (button)</button></div>  
+<div><button type="submit">Submit (button)</button></div>  
+</fieldset>  
+</form>
+
+<hr />
+
+<h2 id="embeds">Embeds</h2>
+
+<p>Sometimes all you want to do is embed a little love from another location and set your post alive.</p>
+
+<h3 id="video">Video</h3>
+
+<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+<iframe src="//player.vimeo.com/video/103224792?title=0&amp;byline=0&amp;portrait=0" width="600" height="338" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+
+<p>Culpa qui officia deserunt mollit anim id est laborum.</p>
+
+<h3 id="slides">Slides</h3>
+
+<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+<script async="" class="speakerdeck-embed" data-id="34d2856027ce01316b5d621ab8e7d421" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+
+<p>Culpa qui officia deserunt mollit anim id est laborum.</p>
+
+<h3 id="audio">Audio</h3>
+
+<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/169381837&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+
+<p>Culpa qui officia deserunt mollit anim id est laborum.</p>
+
+<h3 id="code">Code</h3>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+
+<p><div data-height="268" data-theme-id="0" data-slug-hash="bcqhe" data-default-tab="js" data-user="rglazebrook" class="codepen">&lt;/p&gt;
+
+<pre><code>var c = new Sketch.create({autoclear: false}),
+    bigCircle = 50,
+    littleCircle = 5,
+    // The velocity value determines how much to move the spinner head (in radians).
+    velocity = 0.105,
+    hue = 0,
+    // The alpha value below determines the length of the spinner&#39;s tail.
+    bg = &#39;rgba(40,40,40,.075)&#39;;
+    Spinner = function() {};
+
+Spinner.prototype.setup = function() {
+  this.x = c.width / 2;
+  this.y = c.height / 2 - bigCircle;
+  this.rotation = 0;
+}
+Spinner.prototype.update = function() {
+  this.rotation += velocity;
+  this.rotation = this.rotation % TWO_PI;
+  this.x = c.width /2 + cos(this.rotation) * bigCircle;
+  this.y = c.height / 2 + sin(this.rotation) * bigCircle;
+}
+Spinner.prototype.draw = function() {
+  c.fillStyle = &#39;hsl(&#39;+hue+&#39;,50%,50%)&#39;;
+  c.beginPath();
+  c.arc(this.x, this.y, littleCircle, 0, TWO_PI);
+  c.fill();
+  c.closePath(); 
+}
+c.setup = function() {
+  spinner = new Spinner();
+  spinner.setup();
+} 
+c.update = function() {
+  spinner.update();
+  hue = ++hue % 360;
+}
+c.draw = function() {
+  spinner.draw();
+  c.fillStyle = bg;
+  c.fillRect(0,0,c.width,c.height);
+}
+</code></pre>  
+
+<p>See the Pen <a href="http://codepen.io/rglazebrook/pen/bcqhe/">Simple Rotating Spinner</a> by Rob Glazebrook (<a href="http://codepen.io/rglazebrook">@rglazebrook</a>) on <a href="http://codepen.io">CodePen</a>.</p>  
+
+<p>&lt;/div&gt;<script async="" src="//codepen.io/assets/embed/ei.js"></script></p>
+
+<p>Isn't it beautiful.</p>
+</div></p>
+ ]]></content>
+</entry>
+
+
+  <entry>
+  <title type="text">Another markdown full cheatsheet demo (Markdown)</title>
+  <link rel="alternate" type="text/html" href="http://username.github.io//post2.html" />
+  <id>http://username.github.io//post2</id>
+  <published>2013-05-27T00:00:00Z</published>
+  <updated>2013-05-27T00:00:00Z</updated>
+  <content type="html"><![CDATA[ <blockquote>
+  <p>This is Markdown Cheatsheet Demo for <strong>Sustain</strong>, this Jekyll theme. Please check the raw content of this file for the markdown usage.</p>
+</blockquote>
+
+<h2 id="typography-elements-in-one">Typography Elements in One</h2>
+
+<p>Let’s start with a informative paragraph. <strong>This text is bolded.</strong> But not this one! <em>How about italic text?</em> Cool right? Ok, let’s <strong><em>combine</em></strong> them together. Yeah, that’s right! I have code to highlight, so <code class="language-plaintext highlighter-rouge">ThisIsMyCode()</code>. What a nice! Good people will hyperlink away, so <a href="#">here we go</a> or <a href="http://www.example.com">http://www.example.com</a>.</p>
+
+<div class="divider"></div>
+
+<h2 id="headings-h1-to-h6">Headings H1 to H6</h2>
+
+<h1 id="h1-heading">H1 Heading</h1>
+
+<h2 id="h2-heading">H2 Heading</h2>
+
+<h3 id="h3-heading">H3 Heading</h3>
+
+<h4 id="h4-heading">H4 Heading</h4>
+
+<h5 id="h5-heading">H5 Heading</h5>
+
+<h6 id="h6-heading">H6 Heading</h6>
+
+<div class="divider"></div>
+
+<h2 id="footnote">Footnote</h2>
+
+<p>Let’s say you have text that you want to refer with a footnote, you can do that too! This is an example for the footnote number one <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>. You can even add more footnotes, with link! <sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup></p>
+
+<div class="divider"></div>
+
+<h2 id="blockquote">Blockquote</h2>
+
+<blockquote>
+  <p>Start by doing what’s necessary; then do what’s possible; and suddenly you are doing the impossible. –Francis of Assisi</p>
+</blockquote>
+
+<p><strong>NOTE:</strong> This theme does NOT support nested blockquotes.</p>
+
+<div class="divider"></div>
+
+<h2 id="list-items">List Items</h2>
+
+<ol>
+  <li>First order list item</li>
+  <li>Second item</li>
+</ol>
+
+<ul>
+  <li>Unordered list can use asterisks</li>
+  <li>Or minuses</li>
+  <li>Or pluses</li>
+</ul>
+
+<div class="divider"></div>
+
+<h2 id="code-blocks">Code Blocks</h2>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">var</span> <span class="nx">s</span> <span class="o">=</span> <span class="dl">"</span><span class="s2">JavaScript syntax highlighting</span><span class="dl">"</span><span class="p">;</span>
+<span class="nx">alert</span><span class="p">(</span><span class="nx">s</span><span class="p">);</span></code></pre></figure>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="kn">import</span> <span class="nn">sys</span>  
+<span class="n">s</span> <span class="o">=</span> <span class="s">"Python syntax highlighting"</span>
+<span class="k">print</span><span class="p">(</span><span class="n">s</span><span class="p">)</span>  
+<span class="k">def</span> <span class="nf">run_some_function</span><span class="p">():</span>
+    <span class="s">"Docs..."</span>
+    <span class="k">return</span></code></pre></figure>
+
+<figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="c">/* css synthax highlighting */</span> 
+<span class="nf">#container</span> <span class="p">{</span>
+    <span class="nl">float</span><span class="p">:</span> <span class="nb">left</span><span class="p">;</span>
+    <span class="nl">margin</span><span class="p">:</span> <span class="m">0</span> <span class="m">-240px</span> <span class="m">0</span> <span class="m">0</span><span class="p">;</span>
+    <span class="nl">width</span><span class="p">:</span> <span class="m">100%</span><span class="p">;</span>
+<span class="p">}</span></code></pre></figure>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>No language indicated, so no syntax highlighting.
+But let's throw in a &lt;b&gt;tag&lt;/b&gt;.
+</code></pre></div></div>
+
+<div class="divider"></div>
+
+<h2 id="table">Table</h2>
+
+<h3 id="table-1-with-alignment">Table 1: With Alignment</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Tables</th>
+      <th style="text-align: center">Are</th>
+      <th style="text-align: right">Cool</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>col 3 is</td>
+      <td style="text-align: center">right-aligned</td>
+      <td style="text-align: right">$1600</td>
+    </tr>
+    <tr>
+      <td>col 2 is</td>
+      <td style="text-align: center">centered</td>
+      <td style="text-align: right">$12</td>
+    </tr>
+    <tr>
+      <td>zebra stripes</td>
+      <td style="text-align: center">are neat</td>
+      <td style="text-align: right">$1</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="table-2-with-typography-elements">Table 2: With Typography Elements</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Markdown</th>
+      <th>Less</th>
+      <th>Pretty</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><em>Still</em></td>
+      <td><code class="language-plaintext highlighter-rouge">renders</code></td>
+      <td><strong>nicely</strong></td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>2</td>
+      <td>3</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="divider"></div>
+
+<h2 id="horizontal-line">Horizontal Line</h2>
+
+<p>The HTML <code class="language-plaintext highlighter-rouge">&lt;hr&gt;</code> element is for creating a “thematic break” between paragraph-level elements. In markdown, you can create a <code class="language-plaintext highlighter-rouge">&lt;hr&gt;</code> with any of the following:</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">___</code>: three consecutive underscores</li>
+  <li><code class="language-plaintext highlighter-rouge">---</code>: three consecutive dashes</li>
+  <li><code class="language-plaintext highlighter-rouge">***</code>: three consecutive asterisks</li>
+</ul>
+
+<p>renders to:</p>
+
+<hr />
+
+<hr />
+
+<hr />
+
+<div class="divider"></div>
+
+<h2 id="media">Media</h2>
+
+<h3 id="youtube-embedded-iframe">YouTube Embedded Iframe</h3>
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/nN6QuNqmAwk" frameborder="0" allowfullscreen=""></iframe>
+
+<h3 id="image">Image</h3>
+
+<p><img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSn8cwf82ee9tfml4Wx-tsM5AUavJ_DRHIiXXE4RejRp0RF2L7f6g" alt="Nature" /></p>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>Footnote number one yeah baby! <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:2" role="doc-endnote">
+      <p>A footnote you can link to - <a href="#">click here!</a> <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+ ]]></content>
+</entry>
+
+
+  <entry>
+  <title type="text">Now some lorem ipsum</title>
+  <link rel="alternate" type="text/html" href="http://username.github.io//post3.html" />
+  <id>http://username.github.io//post3</id>
+  <published>2013-04-02T00:00:00Z</published>
+  <updated>2013-04-02T00:00:00Z</updated>
+  <content type="html"><![CDATA[ <p>Expetenda deseruisse eam no, purto adhuc ut pri, ex vocent iracundia theophrastus usu. Dicta causae meliore ex vel, in vix erant integre petentium. Vix ei nisl scripta recusabo, eam doming blandit facilisis ex. No odio persequeris usu, in sea euismod explicari referrentur. Dicit libris iuvaret vim at. Eu noster luptatum pri, magna soleat graeco eu pro.</p>
+
+<p>Vix id vivendum conceptam, et movet commodo indoctum vel. An mea nisl impedit principes. Qui at quod munere dissentiet, vix at modus oporteat consequuntur. Ius saepe fastidii ea, mei ne falli dicunt aeterno. Euismod consetetur ea sed.</p>
+
+<p>Nostrum vivendum conceptam ea sed, te nam meliore vivendo. At usu aliquip prompta, et eos dico alterum neglegentur, lucilius lobortis in vis. Vulputate cotidieque ut nec, quem persius sea ex, an mea luptatum oporteat. Dolor scribentur te sit, cum facilisi forensibus id, duo virtute forensibus voluptatum ad.</p>
+
+<p>Inermis recusabo elaboraret mea et, dicat neglegentur vim te. Nec et sanctus scriptorem, usu ex sapientem gubergren. Tamquam admodum ei usu. Sea at tota soleat tibique, per an fugit accumsan disputando, no justo augue civibus nam.</p>
+
+<p>Mei ei quando convenire, nec ea wisi utroque intellegebat. Essent putant indoctum sed in, reprimique persequeris neglegentur te quo. Nam rebum tractatos partiendo at, debet ubique oporteat ut his, ullum consul audire an est. Id legere saperet gloriatur nam, cum molestie percipit ex.</p>
+
+<p>Eam ut indoctum honestatis reprehendunt, at nam quot nullam fabulas. Graeci vivendo liberavisse his ex, wisi mandamus eu cum, ei sed exerci definitiones. Diam prompta pro ad, dolor corpora ei mea. Ex tantas eleifend duo.</p>
+ ]]></content>
+</entry>
+
+
+  <entry>
+  <title type="text">Continued...</title>
+  <link rel="alternate" type="text/html" href="http://username.github.io//post4.html" />
+  <id>http://username.github.io//post4</id>
+  <published>2013-03-15T00:00:00Z</published>
+  <updated>2013-03-15T00:00:00Z</updated>
+  <content type="html"><![CDATA[ <p>Errem feugait inimicus ad usu, sit porro verterem ut, ne duo primis eloquentiam ullamcorper. Omnes discere ut est, prima inani cu cum. Eum ea saepe audiam animal. Duis meliore vel no. Sed mentitum ocurreret in. Iusto salutatus ea eum.</p>
+
+<p>Minim dolore numquam vix an, soleat honestatis cotidieque eum cu. Sea ne ancillae voluptatum. At vim cibo veri, vim audire explicari maluisset id. Suscipit cotidieque pro id, alia tollit mandamus ad vix. Et meis tollit petentium mel, eu dico semper mel. Eius probo aeque ne per, id mollis erroribus efficiantur duo, dolor adversarium ne duo. Ius ex illud regione definitionem.</p>
+ ]]></content>
+</entry>
+
+
+  <entry>
+  <title type="text">Now seriously something real</title>
+  <link rel="alternate" type="text/html" href="http://username.github.io//post5.html" />
+  <id>http://username.github.io//post5</id>
+  <published>2013-02-10T00:00:00Z</published>
+  <updated>2013-02-10T00:00:00Z</updated>
+  <content type="html"><![CDATA[ <p>As I engage in the so-called “bull sessions” around and about the school, I too often find that most college men have a misconception of the purpose of education. Most of the “brethren” think that education should equip them with the proper instruments of exploitation so that they can forever trample over the masses. Still others think that education should furnish them with noble ends rather than means to an end.</p>
+
+<p>It seems to me that education has a two-fold function to perform in the life of man and in society: the one is utility and the other is culture. Education must enable a man to become more efficient, to achieve with increasing facility the ligitimate goals of his life.</p>
+
+<p>Education must also train one for quick, resolute and effective thinking. To think incisively and to think for one’s self is very difficult. We are prone to let our mental life become invaded by legions of half truths, prejudices, and propaganda. At this point, I often wonder whether or not education is fulfilling its purpose. A great majority of the so-called educated people do not think logically and scientifically. Even the press, the classroom, the platform, and the pulpit in many instances do not give us objective and unbiased truths. To save man from the morass of propaganda, in my opinion, is one of the chief aims of education. Education must enable one to sift and weigh evidence, to discern the true from the false, the real from the unreal, and the facts from the fiction.</p>
+
+<p>The function of education, therefore, is to teach one to think intensively and to think critically. But education which stops with efficiency may prove the greatest menace to society. The most dangerous criminal may be the man gifted with reason, but with no morals.</p>
+
+<p>The late Eugene Talmadge, in my opinion, possessed one of the better minds of Georgia, or even America. Moreover, he wore the Phi Beta Kappa key. By all measuring rods, Mr. Talmadge could think critically and intensively; yet he contends that I am an inferior being. Are those the types of men we call educated?</p>
+
+<p>We must remember that intelligence is not enough. Intelligence plus character–that is the goal of true education. The complete education gives one not only power of concentration, but worthy objectives upon which to concentrate. The broad education will, therefore, transmit to one not only the accumulated knowledge of the race but also the accumulated experience of social living.</p>
+
+<p>If we are not careful, our colleges will produce a group of close-minded, unscientific, illogical propagandists, consumed with immoral acts. Be careful, “brethren!” Be careful, teachers!</p>
+
+<p>By Martin Luther King</p>
+
+<p>An American pastor, activist, humanitarian. People know him for leading the African-American Civil Rights movement using nonviolent civil disobedience.</p>
+ ]]></content>
+</entry>
+
+
+  <entry>
+  <title type="text">I have a dream &lt;3</title>
+  <link rel="alternate" type="text/html" href="http://username.github.io//post6.html" />
+  <id>http://username.github.io//post6</id>
+  <published>2013-01-24T00:00:00Z</published>
+  <updated>2013-01-24T00:00:00Z</updated>
+  <content type="html"><![CDATA[ <p>I am happy to join with you today in what will go down in history as the greatest demonstration for freedom in the history of our nation.</p>
+
+<p>Five score years ago, a great American, in whose symbolic shadow we stand today, signed the Emancipation Proclamation. This momentous decree came as a great beacon light of hope to millions of Negro slaves who had been seared in the flames of withering injustice. It came as a joyous daybreak to end the long night of their captivity.</p>
+
+<p>But one hundred years later, the Negro still is not free. One hundred years later, the life of the Negro is still sadly crippled by the manacles of segregation and the chains of discrimination. One hundred years later, the Negro lives on a lonely island of poverty in the midst of a vast ocean of material prosperity. One hundred years later, the Negro is still languished in the corners of American society and finds himself an exile in his own land. And so we’ve come here today to dramatize a shameful condition.</p>
+
+<p>In a sense we’ve come to our nation’s capital to cash a check. When the architects of our republic wrote the magnificent words of the Constitution and the Declaration of Independence, they were signing a promissory note to which every American was to fall heir. This note was a promise that all men, yes, black men as well as white men, would be guaranteed the “unalienable Rights” of “Life, Liberty and the pursuit of Happiness.” It is obvious today that America has defaulted on this promissory note, insofar as her citizens of color are concerned. Instead of honoring this sacred obligation, America has given the Negro people a bad check, a check which has come back marked “insufficient funds.”</p>
+
+<p>But we refuse to believe that the bank of justice is bankrupt. We refuse to believe that there are insufficient funds in the great vaults of opportunity of this nation. And so, we’ve come to cash this check, a check that will give us upon demand the riches of freedom and the security of justice.</p>
+
+<p>We have also come to this hallowed spot to remind America of the fierce urgency of Now. This is no time to engage in the luxury of cooling off or to take the tranquilizing drug of gradualism. Now is the time to make real the promises of democracy. Now is the time to rise from the dark and desolate valley of segregation to the sunlit path of racial justice. Now is the time to lift our nation from the quicksands of racial injustice to the solid rock of brotherhood. Now is the time to make justice a reality for all of God’s children.</p>
+
+<p>It would be fatal for the nation to overlook the urgency of the moment. This sweltering summer of the Negro’s legitimate discontent will not pass until there is an invigorating autumn of freedom and equality. Nineteen sixty-three is not an end, but a beginning. And those who hope that the Negro needed to blow off steam and will now be content will have a rude awakening if the nation returns to business as usual. And there will be neither rest nor tranquility in America until the Negro is granted his citizenship rights. The whirlwinds of revolt will continue to shake the foundations of our nation until the bright day of justice emerges.</p>
+
+<p>But there is something that I must say to my people, who stand on the warm threshold which leads into the palace of justice: In the process of gaining our rightful place, we must not be guilty of wrongful deeds. Let us not seek to satisfy our thirst for freedom by drinking from the cup of bitterness and hatred. We must forever conduct our struggle on the high plane of dignity and discipline. We must not allow our creative protest to degenerate into physical violence. Again and again, we must rise to the majestic heights of meeting physical force with soul force.</p>
+
+<p>The marvelous new militancy which has engulfed the Negro community must not lead us to a distrust of all white people, for many of our white brothers, as evidenced by their presence here today, have come to realize that their destiny is tied up with our destiny. And they have come to realize that their freedom is inextricably bound to our freedom.</p>
+
+<p>We cannot walk alone.</p>
+
+<p>And as we walk, we must make the pledge that we shall always march ahead.</p>
+
+<p>We cannot turn back.</p>
+
+<p>There are those who are asking the devotees of civil rights, “When will you be satisfied?” We can never be satisfied as long as the Negro is the victim of the unspeakable horrors of police brutality. We can never be satisfied as long as our bodies, heavy with the fatigue of travel, cannot gain lodging in the motels of the highways and the hotels of the cities. We cannot be satisfied as long as the negro’s basic mobility is from a smaller ghetto to a larger one. We can never be satisfied as long as our children are stripped of their self-hood and robbed of their dignity by signs stating: “For Whites Only.” We cannot be satisfied as long as a Negro in Mississippi cannot vote and a Negro in New York believes he has nothing for which to vote. No, no, we are not satisfied, and we will not be satisfied until “justice rolls down like waters, and righteousness like a mighty stream.”</p>
+
+<p>I am not unmindful that some of you have come here out of great trials and tribulations. Some of you have come fresh from narrow jail cells. And some of you have come from areas where your quest – quest for freedom left you battered by the storms of persecution and staggered by the winds of police brutality. You have been the veterans of creative suffering. Continue to work with the faith that unearned suffering is redemptive. Go back to Mississippi, go back to Alabama, go back to South Carolina, go back to Georgia, go back to Louisiana, go back to the slums and ghettos of our northern cities, knowing that somehow this situation can and will be changed.</p>
+
+<p>Let us not wallow in the valley of despair, I say to you today, my friends.</p>
+
+<p>And so even though we face the difficulties of today and tomorrow, I still have a dream. It is a dream deeply rooted in the American dream.</p>
+
+<p>I have a dream that one day this nation will rise up and live out the true meaning of its creed: “We hold these truths to be self-evident, that all men are created equal.”</p>
+
+<p>I have a dream that one day on the red hills of Georgia, the sons of former slaves and the sons of former slave owners will be able to sit down together at the table of brotherhood.</p>
+
+<p>I have a dream that one day even the state of Mississippi, a state sweltering with the heat of injustice, sweltering with the heat of oppression, will be transformed into an oasis of freedom and justice.</p>
+
+<p>I have a dream that my four little children will one day live in a nation where they will not be judged by the color of their skin but by the content of their character.</p>
+
+<p>I have a <strong>dream</strong> today!</p>
+
+<p>I have a dream that one day, down in Alabama, with its vicious racists, with its governor having his lips dripping with the words of “interposition” and “nullification” – one day right there in Alabama little black boys and black girls will be able to join hands with little white boys and white girls as sisters and brothers.</p>
+
+<p>I have a <strong>dream</strong> today!</p>
+
+<p>I have a dream that one day every valley shall be exalted, and every hill and mountain shall be made low, the rough places will be made plain, and the crooked places will be made straight; “and the glory of the Lord shall be revealed and all flesh shall see it together.”</p>
+
+<p>This is our hope, and this is the faith that I go back to the South with.</p>
+
+<p>With this faith, we will be able to hew out of the mountain of despair a stone of hope. With this faith, we will be able to transform the jangling discords of our nation into a beautiful symphony of brotherhood. With this faith, we will be able to work together, to pray together, to struggle together, to go to jail together, to stand up for freedom together, knowing that we will be free one day.</p>
+
+<p>And this will be the day – this will be the day when all of God’s children will be able to sing with new meaning:</p>
+
+<blockquote>
+  <p>My country ‘tis of thee, sweet land of liberty, of thee I sing.</p>
+
+  <p>Land where my fathers died, land of the Pilgrim’s pride,</p>
+
+  <p>From every mountainside, let freedom ring!</p>
+</blockquote>
+
+<p>And if America is to be a great nation, this must become true.</p>
+
+<p>And so let freedom ring from the prodigious hilltops of New Hampshire.</p>
+
+<blockquote>
+  <p>Let freedom ring from the mighty mountains of New York.</p>
+
+  <p>Let freedom ring from the heightening Alleghenies of Pennsylvania.</p>
+
+  <p>Let freedom ring from the snow-capped Rockies of Colorado.</p>
+
+  <p>Let freedom ring from the curvaceous slopes of California.</p>
+</blockquote>
+
+<p>But not only that:</p>
+
+<blockquote>
+  <p>Let freedom ring from Stone Mountain of Georgia.</p>
+
+  <p>Let freedom ring from Lookout Mountain of Tennessee.</p>
+
+  <p>Let freedom ring from every hill and molehill of Mississippi.</p>
+
+  <p>From every mountainside, let freedom ring.</p>
+</blockquote>
+
+<p>And when this happens, and when we allow freedom ring, when we let it ring from every village and every hamlet, from every state and every city, we will be able to speed up that day when all of God’s children, black men and white men, Jews and Gentiles, Protestants and Catholics, will be able to join hands and sing in the words of the old Negro spiritual:</p>
+
+<p><em>Free at last! Free at last!</em></p>
+
+<p><em>Thank God Almighty, we are free at last!</em></p>
+
+<p>By <strong>Martin Luther King</strong></p>
+
+<p>An American pastor, activist, humanitarian. People know him for leading the African-American Civil Rights movement using nonviolent civil disobedience.</p>
+ ]]></content>
+</entry>
+
+
+  <entry>
+  <title type="text">Nice sticky footer down there &amp;darr; &amp;darr;</title>
+  <link rel="alternate" type="text/html" href="http://username.github.io//post7.html" />
+  <id>http://username.github.io//post7</id>
+  <published>2012-11-04T00:00:00Z</published>
+  <updated>2012-11-04T00:00:00Z</updated>
+  <content type="html"><![CDATA[ <p>Lorem ipsum dolor sit amet, te semper nostrud eos, ei feugiat dignissim nam, graeco aliquid vix ad. Ut nec erant pericula, ei mollis nominati qui. Vim an case vidit sententiae, est at euismod laboramus efficiantur. Ei sit brute lorem, ea eam timeam viderer aliquid, cu integre omittam moderatius quo.</p>
+
+<p>Per cu prompta minimum. No sit stet aliquam, et duo tale possit minimum. Cu dicta mundi consequat sed. Ut duo sint probatus deserunt. Iriure copiosae te sed. Duo ea unum lorem tempor, per ex novum dicit concludaturque, ei ullum sanctus luptatum eum.</p>
+ ]]></content>
+</entry>
+
+
+
+</feed>
