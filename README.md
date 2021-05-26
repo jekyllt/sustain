@@ -1,8 +1,8 @@
 # Sustain
 
-[![Build Status](https://github.com/jekyller/sustain/actions/workflows/jekyll_build.yml/badge.svg)](https://github.com/jekyller/sustain/actions/workflows/jekyll_build.yml)
-[![Ruby](https://img.shields.io/badge/ruby-2.6.3-blue.svg?style=flat)](http://travis-ci.org/jekyller/sustain)
-[![Jekyll](https://img.shields.io/badge/jekyll-3.9.0-blue.svg?style=flat)](http://travis-ci.org/jekyller/sustain)
+[![Build Status](https://github.com/jekyllt/sustain/actions/workflows/jekyll_build.yml/badge.svg)](https://github.com/jekyllt/sustain/actions/workflows/jekyll_build.yml)
+[![Ruby](https://img.shields.io/badge/ruby-2.6.3-blue.svg?style=flat)](http://travis-ci.org/jekyllt/sustain)
+[![Jekyll](https://img.shields.io/badge/jekyll-3.9.0-blue.svg?style=flat)](http://travis-ci.org/jekyllt/sustain)
 
 Personal blog built with [Bootstrap](http://getbootstrap.com/), powered by [Jekyll](http://jekyllrb.com/) and freely
 hosted in [Github pages](https://pages.github.com/).
@@ -10,22 +10,22 @@ hosted in [Github pages](https://pages.github.com/).
 
 ## View the live demo
 
-[Sustain Live Demo](https://jekyller.github.io/sustain)
+[Sustain Live Demo](https://jekyllt.github.io/sustain)
 
 
 ## Screenshots
 
 **Home page**
-![home page](https://raw.githubusercontent.com/jekyller/sustain/gh-pages/assets/images/screen1.png)
+![home page](https://raw.githubusercontent.com/jekyllt/sustain/gh-pages/assets/images/screen1.png)
 
 **Blog page**
-![blog page](https://raw.githubusercontent.com/jekyller/sustain/gh-pages/assets/images/screen2.png)
+![blog page](https://raw.githubusercontent.com/jekyllt/sustain/gh-pages/assets/images/screen2.png)
 
 **Post page**
-![post page](https://raw.githubusercontent.com/jekyller/sustain/gh-pages/assets/images/screen3.png)
+![post page](https://raw.githubusercontent.com/jekyllt/sustain/gh-pages/assets/images/screen3.png)
 
 **Projects page**
-![project page](https://raw.githubusercontent.com/jekyller/sustain/gh-pages/assets/images/screen4.png)
+![project page](https://raw.githubusercontent.com/jekyllt/sustain/gh-pages/assets/images/screen4.png)
 
 
 ### Deployment
@@ -50,7 +50,7 @@ For option **2)** simply clone this repository (*master branch*), and then run
 `bundle exec jekyll serve` inside the directory. Upload the resulting `_site/` (or `../sustain-pages/`)
 contents to your repository (*master branch* if uploading as your personal page
 (e.g. username.github.io) or *gh-pages branch* if uploading as a project page
-(as for the [demo](https://github.com/jekyller/sustain/tree/gh-pages)).
+(as for the [demo](https://github.com/jekyllt/sustain/tree/gh-pages)).
 
 For option **3)** you will need to set up travis-ci for your personal fork. Briefly all you
 need then is to change your details in *[\_config.yml](_config.yml)* so that you can push
@@ -66,7 +66,7 @@ issues (see below about issue tracking).
 
 ## Issues and contributing
 
-This install builds well with Ruby v2.6.3 and Jekyll v3.9.0. If you run into any problems please log them on the [issue tracker](https://github.com/jekyller/sustain/issues).
+This install builds well with Ruby v2.6.3 and Jekyll v3.9.0. If you run into any problems please log them on the [issue tracker](https://github.com/jekyllt/sustain/issues).
 
 Feel free pull-request your patches and fixes.
 
